@@ -1,0 +1,27 @@
+﻿:: Bulk Drivers Install
+pnputil.exe /add-driver A:\*.inf /subdirs /install
+pnputil.exe /add-driver B:\*.inf /subdirs /install
+pnputil.exe /add-driver C:\*.inf /subdirs /install
+pnputil.exe /add-driver D:\*.inf /subdirs /install
+pnputil.exe /add-driver E:\*.inf /subdirs /install
+pnputil.exe /add-driver F:\*.inf /subdirs /install
+pnputil.exe /add-driver G:\*.inf /subdirs /install
+pnputil.exe /add-driver H:\*.inf /subdirs /install
+pnputil.exe /add-driver I:\*.inf /subdirs /install
+pnputil.exe /add-driver J:\*.inf /subdirs /install
+pnputil.exe /add-driver K:\*.inf /subdirs /install
+pnputil.exe /add-driver L:\*.inf /subdirs /install
+pnputil.exe /add-driver M:\*.inf /subdirs /install
+pnputil.exe /add-driver N:\*.inf /subdirs /install
+pnputil.exe /add-driver O:\*.inf /subdirs /install
+pnputil.exe /add-driver P:\*.inf /subdirs /install
+pnputil.exe /add-driver Q:\*.inf /subdirs /install
+pnputil.exe /add-driver R:\*.inf /subdirs /install
+pnputil.exe /add-driver S:\*.inf /subdirs /install
+pnputil.exe /add-driver T:\*.inf /subdirs /install
+pnputil.exe /add-driver U:\*.inf /subdirs /install
+pnputil.exe /add-driver V:\*.inf /subdirs /install
+pnputil.exe /add-driver W:\*.inf /subdirs /install
+pnputil.exe /add-driver X:\*.inf /subdirs /install
+pnputil.exe /add-driver Y:\*.inf /subdirs /install
+pnputil.exe /add-driver Z:\*.inf /subdirs /install
