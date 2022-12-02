@@ -1,128 +1,69 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend">
-	<settings pass="generalize">
-		<component name="Microsoft-Windows-PnpSysprep" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<DoNotCleanUpNonPresentDevices>false</DoNotCleanUpNonPresentDevices>
-			<PersistAllDeviceInstalls>false</PersistAllDeviceInstalls>
-		</component>
-		<component name="Microsoft-Windows-PnpSysprep" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<DoNotCleanUpNonPresentDevices>false</DoNotCleanUpNonPresentDevices>
-			<PersistAllDeviceInstalls>false</PersistAllDeviceInstalls>
-		</component>
-	</settings>
-	<settings pass="oobeSystem">
-		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<CopyProfile>true</CopyProfile>
-			<OEMInformation>
-				<Manufacturer>GSecurity</Manufacturer>
-				<SupportURL>https://github.com/Gorstak-ZD</SupportURL>
-			</OEMInformation>
-			<OOBE>
-				<HideEULAPage>true</HideEULAPage>
-				<HideLocalAccountScreen>true</HideLocalAccountScreen>
-				<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
-				<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-				<NetworkLocation>Home</NetworkLocation>
-				<ProtectYourPC>3</ProtectYourPC>
-				<SkipMachineOOBE>true</SkipMachineOOBE>
-				<SkipUserOOBE>true</SkipUserOOBE>
-			</OOBE>
-			<UserAccounts>
-				<LocalAccounts>
-					<LocalAccount wcm:action="add">
-						<Group>Administrators</Group>
-						<Name>Admin</Name>
-						<Password>
-							<PlainText>true</PlainText>
-							<Value></Value>
-						</Password>
-					</LocalAccount>
-				</LocalAccounts>
-			</UserAccounts>
-		</component>
-		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<CopyProfile>true</CopyProfile>
-			<TimeZone>Central European Standard Time</TimeZone>
-			<OEMInformation>
-				<Manufacturer>GSecurity</Manufacturer>
-				<SupportURL>https://github.com/Gorstak-ZD</SupportURL>
-			</OEMInformation>
-			<OOBE>
-				<HideEULAPage>true</HideEULAPage>
-				<HideLocalAccountScreen>true</HideLocalAccountScreen>
-				<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
-				<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
-				<NetworkLocation>Home</NetworkLocation>
-				<ProtectYourPC>3</ProtectYourPC>
-				<SkipMachineOOBE>true</SkipMachineOOBE>
-				<SkipUserOOBE>true</SkipUserOOBE>
-			</OOBE>
-			<UserAccounts>
-				<LocalAccounts>
-					<LocalAccount wcm:action="add">
-						<Group>Administrators</Group>
-						<Name>Admin</Name>
-						<Password>
-							<PlainText>true</PlainText>
-							<Value></Value>
-						</Password>
-					</LocalAccount>
-				</LocalAccounts>
-			</UserAccounts>
-		</component>
-	</settings>
-	<settings pass="specialize">
-		<component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<SkipAutoActivation>false</SkipAutoActivation>
-		</component>
-		<component name="Microsoft-Windows-Security-SPP-UX" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<SkipAutoActivation>false</SkipAutoActivation>
-		</component>
-		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<ComputerName>CRO-PC</ComputerName>
-			<RegisteredOrganization>GSecurity</RegisteredOrganization>
-		</component>
-		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<ComputerName>CRO-PC</ComputerName>
-			<RegisteredOrganization>GSecurity</RegisteredOrganization>
-		</component>
-	</settings>
-	<settings pass="windowsPE">
-		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<SystemLocale>en-US</SystemLocale>
-		</component>
-		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<SystemLocale>en-US</SystemLocale>
-		</component>
-		<component name="Microsoft-Windows-Setup" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<Diagnostics>
-				<OptIn>false</OptIn>
-			</Diagnostics>
-			<DynamicUpdate>
-				<Enable>false</Enable>
-				<WillShowUI>OnError</WillShowUI>
-			</DynamicUpdate>
-			<UserData>
-				<AcceptEula>true</AcceptEula>
-				<ProductKey>
-					<Key></Key>
-				</ProductKey>
-			</UserData>
-		</component>
-		<component name="Microsoft-Windows-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-			<Diagnostics>
-				<OptIn>false</OptIn>
-			</Diagnostics>
-			<DynamicUpdate>
-				<Enable>false</Enable>
-				<WillShowUI>OnError</WillShowUI>
-			</DynamicUpdate>
-			<UserData>
-				<AcceptEula>true</AcceptEula>
-				<ProductKey>
-					<Key></Key>
-				</ProductKey>
-			</UserData>
-		</component>
-	</settings>
+  <settings pass="disabled">
+    <component name="Microsoft-Windows-Setup" processorArchitecture="amd64" language="neutral" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS">
+      <UserData>
+        <ProductKey>
+          <Key />
+        </ProductKey>
+      </UserData>
+      <RunSynchronous>
+        <RunSynchronousCommand wcm:action="add">
+          <Order>1</Order>
+          <Path>reg add HKLM\SYSTEM\Setup\LabConfig /v BypassTPMCheck /t REG_DWORD /d 1 /f</Path>
+        </RunSynchronousCommand>
+        <RunSynchronousCommand wcm:action="add">
+          <Order>2</Order>
+          <Path>reg add HKLM\SYSTEM\Setup\LabConfig /v BypassSecureBootCheck /t REG_DWORD /d 1 /f</Path>
+        </RunSynchronousCommand>
+        <RunSynchronousCommand wcm:action="add">
+          <Order>3</Order>
+          <Path>reg add HKLM\SYSTEM\Setup\LabConfig /v BypassRAMCheck /t REG_DWORD /d 1 /f</Path>
+        </RunSynchronousCommand>
+      </RunSynchronous>
+    </component>
+  </settings>
+  <settings pass="specialize">
+    <component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" language="neutral" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS">
+      <RunSynchronous>
+        <RunSynchronousCommand wcm:action="add">
+          <Order>1</Order>
+          <Path>reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f</Path>
+        </RunSynchronousCommand>
+      </RunSynchronous>
+    </component>
+  </settings>
+  <settings pass="oobeSystem">
+    <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" language="neutral" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS">
+      <OOBE>
+        <ProtectYourPC>3</ProtectYourPC>
+      </OOBE>
+      <UserAccounts>
+        <LocalAccounts>
+          <LocalAccount wcm:action="add">
+            <Name>Admin</Name>
+            <DisplayName>Admin</DisplayName>
+            <Group>Administrators;Power Users</Group>
+            <Password>
+              <Value>UABhAHMAcwB3AG8AcgBkAA==</Value>
+              <PlainText>false</PlainText>
+            </Password>
+          </LocalAccount>
+        </LocalAccounts>
+      </UserAccounts>
+      <FirstLogonCommands>
+        <SynchronousCommand wcm:action="add">
+          <Order>1</Order>
+          <CommandLine>net user &quot;Admin&quot; /logonpasswordchg:yes</CommandLine>
+        </SynchronousCommand>
+      </FirstLogonCommands>
+    </component>
+    <component name="Microsoft-Windows-International-Core" processorArchitecture="amd64" language="neutral" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS">
+      <InputLocale>0000041a</InputLocale>
+      <SystemLocale>hr-HR</SystemLocale>
+      <UserLocale>hr-HR</UserLocale>
+      <UILanguage>en-US</UILanguage>
+      <UILanguageFallback></UILanguageFallback>
+    </component>
+  </settings>
 </unattend>
