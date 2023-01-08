@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="true" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>01/08/2023 21:06</Date>
+	<AppInfo>
+		<Version>1.5.0.5855</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 10 Home N 64-bit - Client 10.0.19041.1 (en-US) - en-US</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 10 Home N 64-bit - Client 10.0.22621.819 (en-US)</Version>
+		<GUID>{8319DEA4-D9CB-44AD-9B0A-65E5F8DAE192}</GUID>
+	</ImageInfo>
+	<RemoveComponents>
+		<c>3daudio 'Spatial Sound (3D Audio)'</c>
+		<c>accessibility 'Alati pristupačnosti'</c>
+		<c>adamclient 'Active Directory Lightweight Directory Services (AD LDS)'</c>
+		<c>appv 'Application Virtualization (App-V)'</c>
+		<c>assembly.net 'NET sklop predmemorije'</c>
+		<c>biometricservice 'Windows Biometric Service'</c>
+		<c>dbgeng 'Windows Symbolic Debugger Engine'</c>
+		<c>defrag 'Diskovni Defragmenter'</c>
+		<c>driver_xinputhid.inf</c>
+		<c>filehistory 'File History'</c>
+		<c>gameexplorer 'Game Explorer'</c>
+		<c>hwsupport_tv 'TV Tuner codeci i podrška'</c>
+		<c>identityfoundation 'Windows Identity Foundation (WIF)'</c>
+		<c>iis 'Internet Information Server (IIS)'</c>
+		<c>langarabic 'Arabic'</c>
+		<c>langbulgarian 'Bulgarian'</c>
+		<c>langchineses 'Chinese Simplified'</c>
+		<c>langchineset 'Chinese Traditional'</c>
+		<c>langcroatian 'Hrvatski'</c>
+		<c>langczech 'Czech'</c>
+		<c>langdanish 'Danish'</c>
+		<c>langdutch 'Dutch'</c>
+		<c>langenglishgb 'English (GB)'</c>
+		<c>langestonian 'Estonian'</c>
+		<c>langfinnish 'Finnish'</c>
+		<c>langfrench 'French'</c>
+		<c>langfrenchcanadian 'French (Canadian)'</c>
+		<c>langgerman 'German'</c>
+		<c>langgreek 'Greek'</c>
+		<c>langhebrew 'Hebrew'</c>
+		<c>langhungarian 'Hungarian'</c>
+		<c>langime 'Input Method Editor (IME)'</c>
+		<c>langimejp 'Japanese (IME)'</c>
+		<c>langimeko 'Korean (IME)'</c>
+		<c>langimetc 'Chinese Traditional (IME)'</c>
+		<c>langitalian 'Italian'</c>
+		<c>langjapanese 'Japanese'</c>
+		<c>langkorean 'Korean'</c>
+		<c>langlatvian 'Latvian'</c>
+		<c>langlithuanian 'Lithuanian'</c>
+		<c>langnorwegian 'Norwegian'</c>
+		<c>langpolish 'Polish'</c>
+		<c>langportuguesebr 'Portuguese (Brazilian)'</c>
+		<c>langportuguesept 'Portuguese'</c>
+		<c>langpseudolocale 'Pseudo-locale'</c>
+		<c>langromanian 'Romanian'</c>
+		<c>langrussian 'Russian'</c>
+		<c>langserbian 'Serbian'</c>
+		<c>langslovak 'Slovak'</c>
+		<c>langslovenian 'Slovenian'</c>
+		<c>langspanish 'Spanish'</c>
+		<c>langswedish 'Swedish'</c>
+		<c>langthai 'Thai'</c>
+		<c>langturkish 'Turkish'</c>
+		<c>langukrainian 'Ukrainian'</c>
+		<c>lockscreens 'Lock Screen backgrounds'</c>
+		<c>manifestbackup 'Manifest Backup (WinSxS$#92;Backup)'</c>
+		<c>manifests 'Windows Component Database'</c>
+		<c>manualsetup 'Ručni Setup'</c>
+		<c>Microsoft.BioEnrollment 'BioEnrollment'</c>
+		<c>Microsoft.MicrosoftEdge 'MicrosoftEdge'</c>
+		<c>Microsoft.Windows.ParentalControls 'ParentalControls'</c>
+		<c>microsoft.windowscommunicationsapps 'Windows Mail'</c>
+		<c>Microsoft.WindowsMaps 'WindowsMaps'</c>
+		<c>migwiz 'Easy Transfer'</c>
+		<c>netframework3 '.NET Framework 2.0, 3.0 and 3.5'</c>
+		<c>netframework3wcf 'Windows Communication Foundation (WCF) 3'</c>
+		<c>netframework4wcf 'Windows Communication Foundation (WCF) 4'</c>
+		<c>netframeworkaspnet4 'ASP.NET 4.7'</c>
+		<c>optionalfeatures 'Optional Features'</c>
+		<c>pdfreader 'Windows Reader backend'</c>
+		<c>perfcounters 'Performance Counters'</c>
+		<c>perfmon 'Performance Monitor'</c>
+		<c>perftools 'Performance CMD Tools for Tracing'</c>
+		<c>pla 'Performance Logs and Alerts'</c>
+		<c>playready</c>
+		<c>rdpclient 'Remote Desktop Client'</c>
+		<c>retaildemo 'Retail Demo Content'</c>
+		<c>screensavers 'Screensaveri'</c>
+		<c>sfc 'System File Check (SFC)'</c>
+		<c>soundsdefault 'Zvukovi (zadano)'</c>
+		<c>sourcessxsdir 'Manual feature repository'</c>
+		<c>speechcommon 'Prepoznavanje govora'</c>
+		<c>speechtts 'Speech TTS'</c>
+		<c>staticfontcache 'Static Font Cache'</c>
+		<c>tabletextservice 'Table Text Servis'</c>
+		<c>tempcache 'Cache i temp datoteke'</c>
+		<c>uev 'User Experience Virtualization (UE-V)'</c>
+		<c>winre 'Windows oporavak'</c>
+		<c>winrm 'Windows Remote Management (WS-Management)'</c>
+		<c>winsat 'Windows System Assessment Tool (WinSAT)'</c>
+		<c>winsxs 'Windows Component Store (WinSxS)'</c>
+		<c>wordpad</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">NetworkDiscovery</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="no">AppxSupport</Feature>
+			<Feature enabled="no">Recommended-All</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="no">ManualSetup</Feature>
+			<Feature enabled="yes">Recommended-Tablet</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">USBModem</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">Hyper-V VM</Machine>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="yes">Parallels VM</Machine>
+			<Machine enabled="yes">Virtual Box VM</Machine>
+			<Machine enabled="yes">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features></Features>
+	<AddPackages></AddPackages>
+	<Drivers showHidden="true">
+		<AddDrivers></AddDrivers>
+	</Drivers>
+	<Unattended mode="1">
+		<OEMSetupComplete>false</OEMSetupComplete>
+		<AnswerFileLocationPanther>true</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>true</SaveBothArch>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Central European Standard Time</TimeZone>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Other</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+					<SkipMachineOOBE>true</SkipMachineOOBE>
+					<SkipUserOOBE>true</SkipUserOOBE>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<Group>Administrators</Group>
+							<Name>Admin</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>WINDOWS-PC</ComputerName>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-Setup">
+				<DynamicUpdate>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<ProductKey>
+						<Key></Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+			<Task>imageOptionsDontBackupPresetLog</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+		<CleanHotfixedLeftovers>true</CleanHotfixedLeftovers>
+		<ReuseDriverCache>false</ReuseDriverCache>
+	</ApplyOptions>
+	<Execution>
+		<Add>
+			<Item type="Placeholder">
+				<Index>0</Index>
+			</Item>
+		</Add>
+		<Change></Change>
+		<Remove></Remove>
+	</Execution>
+	<Registry></Registry>
+</Preset>
